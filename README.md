@@ -4,4 +4,4 @@ Click on one of the tiles and copy the color to the clipboard
 
 live version @ https://iamnelsonmartins.github.io/ColorGenerator/
 
-![Build and Deploy](https://github.com/iamnelsonmartins/ColorGenerator/workflows/Build%20and%20Deploy/badge.svg?branch=main)
+![Good to see live?](https://github.com/iamnelsonmartins/ColorGenerator/workflows/Good%20to%20see%20live%3F/badge.svg?branch=main)
