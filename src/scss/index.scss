@@ -1,0 +1,90 @@
+$base-color: #d6d6d6;
+$btn-color: #00bfff;
+$modalBlack: #272727;
+$height: 45px;
+$transition: all 0.3s linear;
+
+body {
+  background-color: $base-color;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 2rem;
+}
+
+.container h3 {
+  margin-right: 2rem;
+}
+
+input {
+  width: 150px;
+  border-color: transparent;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input.error {
+  border: 2px solid #c41e3a;
+}
+
+.btn {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border-color: transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-transform: capitalize;
+  color: $modalBlack;
+  cursor: pointer;
+}
+
+.color-light {
+  color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+
+  & article {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .baseColor {
+    grid-area: 3 / 1 / 4 / 6;
+  }
+}
+
+.modal {
+  background-color: $modalBlack;
+  width: 50%;
+  height: $height;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%);
+}
+
+footer {
+  background-color: $modalBlack;
+  color: $base-color;
+  padding: 2rem;
+  text-align: center;
+
+  a {
+    color: $base-color;
+  }
+}
