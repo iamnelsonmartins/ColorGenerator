@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Good to see live?
 on:
   push:
     branches:
