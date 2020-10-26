@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "color-generator",
   "version": "1.0.0",
-  "description": "simple boilerplate to create react apps without CRA",
+  "description": "simple color generator with shades and tints",
   "main": "index.js",
   "babel": {
     "presets": [
