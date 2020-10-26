@@ -1,4 +1,4 @@
-name: Good to see live?
+name: is it Live?
 on:
   push:
     branches:
